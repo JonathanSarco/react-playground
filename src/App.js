@@ -1,4 +1,3 @@
-import "./App.css";
 import MainUseRef from "./components/MainUseRef";
 import MainToggle from "./components/MainToggle";
 import MainUseLocalStorage from "./components/MainUseLocalStorage";
@@ -8,10 +7,11 @@ import MainUseTimeout from "./components/MainUseTimeout";
 import MainUseDebounce from "./components/MainUseDebounce";
 import MainUseEffect from "./components/MainUseEffect";
 import MainUseArray from "./components/MainUseArray";
+import MainUseTransition from "./components/MainUseTransition";
 
 function App() {
   return (
-    <div className="container">
+    <div>
       {/* <MainUseLocalStorage /> */}
 
       {/* <Toggle /> */}
@@ -28,7 +28,9 @@ function App() {
 
       {/* <MainUseEffect /> */}
 
-      <MainUseArray />
+      {/* <MainUseArray /> */}
+
+      <MainUseTransition />
     </div>
   );
 }
